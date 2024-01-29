@@ -49,6 +49,6 @@ func multiply(no1: Int, no2: Int) -> Int {
     return no1 * no2
 }
 
-calculator(n1: 2, n2: 3, operation: add)
+calculator(n1: 2, n2: 3, operation: multiply)
 
 
