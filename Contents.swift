@@ -41,10 +41,10 @@ import UIKit
 
 let array = [6,2,3,9,4,1]
 
-func addOne (n1: Int) -> Int {
+
+
+array.map({ (n1: Int) -> Int in
+    
     return n1 + 1
-}
-
-
-array.map(addOne)
+})
 // using the map method and putting the addOne function as a parameter of the method
