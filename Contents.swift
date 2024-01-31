@@ -37,11 +37,14 @@
 
 import UIKit
 
-func calculator (n1: Int, n2: Int, operation: (Int, Int) -> Int) -> Int {
-    return operation(n1,n2)
+// Exercise in which we want to add +1 to each number in the array
+
+let array = [6,2,3,9,4,1]
+
+func addOne (n1: Int) -> Int {
+    return n1 + 1
 }
 
 
-let result = calculator(n1: 2, n2: 3, operation: {$0 * $1} )
- 
-print(result)
+array.map(addOne)
+// using the map method and putting the addOne function as a parameter of the method
