@@ -49,6 +49,15 @@
 //})
 //// using the map method and putting the addOne function as a parameter of the method
 
+
+//Testing Extentions in Swift
 import UIKit
+
+let myDouble = 3.14159
+
+let myRoundedDouble = String(format: "%1.f", myDouble)
+
+print(myRoundedDouble)
+
 
 
