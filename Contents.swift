@@ -35,16 +35,20 @@
 //ghostTown.fortify()
 
 
+//import UIKit
+//
+//// Exercise in which we want to add +1 to each number in the array
+//
+//let array = [6,2,3,9,4,1]
+//
+//
+//
+//array.map({ (n1: Int) -> Int in
+//    
+//    return n1 + 1
+//})
+//// using the map method and putting the addOne function as a parameter of the method
+
 import UIKit
 
-// Exercise in which we want to add +1 to each number in the array
 
-let array = [6,2,3,9,4,1]
-
-
-
-array.map({ (n1: Int) -> Int in
-    
-    return n1 + 1
-})
-// using the map method and putting the addOne function as a parameter of the method
