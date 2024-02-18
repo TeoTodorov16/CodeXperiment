@@ -53,9 +53,14 @@
 //Testing Extentions in Swift
 import UIKit
 
+extension Double {
+    
+    func round(to places: Int)
+}
+
 var myDouble = 3.14159
 
-myDouble.round()
+myDouble.round(to:3)
 
 
 
