@@ -53,11 +53,9 @@
 //Testing Extentions in Swift
 import UIKit
 
-let myDouble = 3.14159
+var myDouble = 3.14159
 
-let myRoundedDouble = String(format: "%1.f", myDouble)
-
-print(myRoundedDouble)
+myDouble.round()
 
 
 
