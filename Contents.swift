@@ -60,6 +60,9 @@ extension Double {
 
 var myDouble = 3.14159
 
+myDouble = myDouble * 1000
+
+
 myDouble.round(to:3)
 
 
