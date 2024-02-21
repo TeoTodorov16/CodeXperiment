@@ -70,4 +70,19 @@ var myDouble = 3.14159
 myDouble.round(to:1)
 
 
+import UIKit
+
+extension UIButton {
+    
+    func makeItCircle() {
+        self.clipsToBounds = true
+        self.layer.cornerRadius = self.frame.size.width / 2
+    }
+}
+
+let button = UIButton(frame: CGRect(x: 0, y: 0, width: 50, height: 50))
+button.backgroundColor = .red
+button.makeItCircle()
+
+
 
