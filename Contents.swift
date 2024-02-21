@@ -57,6 +57,8 @@ extension Double {
     
     func round(to places: Int) {
         let precisionNumber = pow(10, places)
+        var n = self
+        n = n * precisionNumber
     }
 }
 
